@@ -1,0 +1,8 @@
+Bibliotecas instaladas de inicio: pip install django psycopg2-binary gunicorn dj-static django-stdimage
+
+django-admin startproject fusion .
+
+django-admin startapp core
+
+Em views, vamos usar Based Class Views, para isso, vamos fazer o import: from django.views.generic import TemplateView
+*Veja os exemplos de BCV nas views*
